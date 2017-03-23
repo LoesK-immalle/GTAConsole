@@ -6,11 +6,7 @@ using System.Threading.Tasks;
 
 namespace GTAConsole
 {
-    class Dief : Persoon
+    class Vrachtautochauffeur : Persoon
     {
-        public void Steelt(Voertuig voertuig)
-        {
-            Console.WriteLine("{0} werd gestolen.", voertuig);
-        }
     }
 }

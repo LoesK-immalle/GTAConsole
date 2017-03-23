@@ -13,7 +13,7 @@ namespace GTAConsole
         }
         public override void Rij()
         {
-            Console2.WriteLine("De brommer rijdt...", ConsoleColor.Magenta);
+            Console2.WriteLine("De brommer rijdt...", ConsoleColor.Gray);
         }
         public override void Stuur(int graden)
         {

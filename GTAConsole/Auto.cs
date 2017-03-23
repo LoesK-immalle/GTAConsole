@@ -16,5 +16,11 @@ namespace GTAConsole
         {
             Console2.WriteLine("De auto rijdt...", ConsoleColor.Red);
         }
+
+        public override void Stuur(int graden)
+        {
+            Console.WriteLine("De auto draait {0} graden.", graden);
+            base.Stuur(graden);
+        }
     }
 }

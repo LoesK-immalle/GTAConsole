@@ -8,7 +8,7 @@ namespace GTAConsole
 {
     class Persoon
     {
-        public string naam { get; set; }
-        public bool rijbewijs { get; set; }
+        public string Naam { get; set; }
+        public bool Rijbewijs { get; set; }
     }
 }
