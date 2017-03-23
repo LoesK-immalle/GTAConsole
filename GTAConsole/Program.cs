@@ -10,6 +10,14 @@ namespace GTAConsole
     {
         static void Main(string[] args)
         {
+            Voertuig v = new Voertuig(ConsoleColor.Magenta);
+            Voertuig truck = new Vrachtwagen();
+            Voertuig citta = new Brommer();
+
+            v.Rij();
+            truck.Rij();
+            citta.Rij();
+            citta.Stuur(28);
         }
     }
 }

@@ -43,8 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Auto.cs" />
+    <Compile Include="Brommer.cs" />
+    <Compile Include="Console2.cs" />
+    <Compile Include="Dief.cs" />
+    <Compile Include="Persoon.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Voertuig.cs" />
+    <Compile Include="Vrachtwagen.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
